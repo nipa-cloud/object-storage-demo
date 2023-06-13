@@ -1,0 +1,21 @@
+<CORSConfiguration>
+ <CORSRule>
+   <AllowedOrigin>http://localhost:5173</AllowedOrigin>
+   <AllowedMethod>GET</AllowedMethod>
+   <AllowedMethod>PUT</AllowedMethod>
+   <AllowedMethod>POST</AllowedMethod>
+   <AllowedMethod>DELETE</AllowedMethod>
+   <AllowedHeader>*</AllowedHeader>
+ </CORSRule>
+ <CORSRule>
+   <AllowedOrigin>https://webboard-bucket.s3-bkk-static.nipa.cloud</AllowedOrigin>
+   <AllowedMethod>GET</AllowedMethod>
+   <AllowedMethod>PUT</AllowedMethod>
+   <AllowedMethod>POST</AllowedMethod>
+   <AllowedMethod>DELETE</AllowedMethod>
+   <AllowedHeader>*</AllowedHeader>
+ </CORSRule>
+</CORSConfiguration>
+
+
+
